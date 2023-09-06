@@ -38,12 +38,16 @@ main {
   min-height: 1.8rem;
   font-size: 1.5rem;
   text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 #currentScreen {
   min-height: 2.5rem;
   font-size: 2rem;
   text-align: right;
   font-weight: 900;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 #calculatorBtns {
   width: 100%;
@@ -68,6 +72,7 @@ button {
   font-weight: 500;
   background-color: lightgrey;
   cursor: pointer;
+  user-select: none;
 }
 #deleteBtn {
   background-color: #ff0000c5;
