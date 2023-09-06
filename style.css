@@ -73,6 +73,8 @@ button {
   background-color: lightgrey;
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 #deleteBtn {
   background-color: #ff0000c5;
